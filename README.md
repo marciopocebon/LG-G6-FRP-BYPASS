@@ -115,4 +115,4 @@ After you downgraded your firwmare to Android 7.0 then do as following:
 -) First connect to a wifi
 -) When you're connected do like this: 
 -) https://www.facebook.com/Haha 
-
+ # A window will popup and tell you that encryption was unsuccessfull just press reset phone and wait until it has reboot
