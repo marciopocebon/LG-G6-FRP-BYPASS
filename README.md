@@ -4,7 +4,7 @@
 This wiki is for private usage and as a reminder if I will get another LG G6.
 
 This device has been by far the most difficult phone to hack all categories, probably spent over 100 hours to finally break it.
-No wiki's out there actually work and they all who made them are kinda idiots and just scammers and some tutorials even may brick your device, not even xda forum have legit tutorial for this device so hopefully someone will enjoy this wiki with a LG device.
+No wiki's out there actually work and they all who made them are kinda idiots and just scammers and some tutorials even may brick your device, not even xda forum have legit tutorial for this device so hopefully someone will enjoy this wiki that have a LG G6 and probably the newer versions aswell.
 
 # HOWTO - ANDROID 7.0 
 
