@@ -8,9 +8,9 @@ No wiki's out there actually work and they all who made them are kinda idiots an
 
 # HOWTO - ANDROID 7.0 
 
-* If you got Android 8.0 Oreo then you must re-flash your firmware to Android 7.0, it wont  matter what firmware you choose from https://lg-firmwares.com/ until we really hacked the device, just pick one and download the file and flash your device with LGUP tool, go grab the tool + dll file from here: https://www.mylgphones.com/download-lg-up-software but for fun, let me provide you how you will be able to install apk files since no guide out there works with the limited settings and neither tutorial works, NONE works! 
+* If you got Android 8.0 Oreo then you must re-flash your firmware to Android 7.0, it wont  matter what firmware you choose from https://lg-firmwares.com/ until we really hacked the device, just pick one and download the file and flash your device with LGUP tool, go grab the tool + dll file from here: https://www.mylgphones.com/download-lg-up-software but for fun, let me provide you how you will be able to install apk files on the limited android 8.0 firmware that has all settings disabled and due permissions you are not allowed to launch them because selinux is enable, but you can install applications by a miss I haven't been able to find anywhere. This is possible cause LG have forgot to disable permissions for install 'un-secured' applications outside playstore:
 
-### APKS ON ANDROID 8.0 LOCKED BY FRP
+### INSTALL APKS ON ANDROID 8.0 LOCKED BY FRP
 
 ##### NOTICE: This is NOT allowed on Android 7.0 so don't bother to try, it will just bring you to the limited settings panel with netowrk settings only and you wont be able to move on to developer settings or overide apps settings: 
 
@@ -153,20 +153,44 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
 
 23) You are now allowed enter USB Debugging but this wont help much due to the permissions issues BUT now you are allowed to list application wich means you are allowed to uninstall them aswell (still not allowed to start any application or do anything almost since / is mounted as ro): Now do exactly as below and don't install other apps if you don't know exactly what you doing then you might be stuck and have a softbricked device, just follow this and you're safe!
 
+![Screenshot](https://nr1.nu/archive/lg-g6/lg-remove-apps.gif)
+
      adb shell pm uninstall --user 0 com.android.google.gms
      adb shell pm uninstall --user 0 com.lge.setupwizard
      adb shell pm uninstall --user 0 com.lge.hiddenmenu
+     adb shell pm uninstall --user 0 com.google.android.setupwizard
+     adb shell pm uninstall --user 0 com.lge.easyhome
+     adb shell am broadcast -a android.intent.action.MASTER_CLEAR
      adb reboot 
      
-* Once device rebooted after you ran reboot:
+* Once device rebooted after you ran reboot, turn off the device while its installing with the white background and android logo on screen and let the device be turned off for ~1 minute and then powering off your device - When you are abck back to welcome screen (It's safe to turn off device during install, did it several times for trying)
 
-* When you are abck back to welcome screen
-1) Press on next button -> DO NOT CONNECT 
+1) Press on next button 
 2) On wifi settings do NOT have a sim card or connect to a wifi
 3) Just press skip down in right corner, and just move on until you enter HOME SCREEN and your done! Google can't connect to their servers due we removed the gms package and lgsetupwizard is gone so frp protection can't be triggered, reinstall applications from /system application and enjoy your fully unlocked LG G6 870S device!
 
-Enjoy your fully unlocked LG G6 870!
+Enjoy your fully unlocked LG G6 870 - If you're smart, download LG Bridge and put your device into download mode and upgrade your device to a proper firmware for you country.
 
 ### Other bugs I found while trying bypassing the FRP
 
 When you are at wifi settings and the next button is inactive because you are forced to connect to a network then do as following to move further, exactly the same second as you turning off the device then press on next button before the button getting inactive/grayed out and you will be asked if you wanna continue to the next step, you will now be allowed to take over the fingerpring and pin code and erase the old owners lock setting, but don't be to excited once this step is done and when you was allowed to enter the username you will be redirected back to the wifi screen and you wont be able to go further. In some tutorials out there some claims you can take over lockscreen settings by entering the phone application and go to settings and setup new certificates and then be allowed to install your own fingerprint, this is waste of time and it's much easier to use this bug to take over the pin code (it wont help in any way to bypass FRP even if some wikis out there claims that)
+
+
+
+#### REQUIREMENTS
+
+A running Windows 10 Pro, works for any version you will find your keys from Microsoft here: https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
+
+#### CONTACT 
+
+If you have problems, questions, ideas or suggestions please contact
+us by posting to wuseman@nr1.nu
+
+#### WEB SITE
+
+Visit our homepage for the latest info and updated tools
+
+https://github.com/wuseman
+
+#### END!
+
