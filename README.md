@@ -141,7 +141,7 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
 
 18) Enter UUSD: *#546368#*870# where 870 is the device model, since we have a LG G6 870 we entering 870, you are now in HiddenMenu
 
-### Don't get panic if  USB Debugging is inactive and youre not allowed to enable usb debugging! For users that not have this issue can jump over part:
+### Don't get panic! If USB Debugging is inactive and you are not allowed to enable usb debugging! (users that not have this issue can jump over part)
 
    - Turn off your LG device
    - Re-do the flash process with LGUP
@@ -173,10 +173,15 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
 
 Enjoy your fully unlocked LG G6 870 - If you're smart, download LG Bridge and put your device into download mode and upgrade your device to a proper firmware for you country.
 
+Mission complete. 
+
 ### Other bugs I found while trying bypassing the FRP
 
 When you are at wifi settings and the next button is inactive because you are forced to connect to a network then do as following to move further, exactly the same second as you turning off the wifi then press on next button before the button getting inactive/grayed out and you will be asked if you wanna continue to the next step, you will now be allowed to take over the pin code and erase the old owners lock setting, but don't be to excited once this step is done and when you was allowed to enter the username you will be redirected back to the wifi screen and you wont be able to go further until you are connected to the wifi (you can still turn off wifi and press next the same second but you will be sent back to wifi settings again no matter if you trying 20 times or 1 time, did it myself). In some tutorials out there some claims you can take over lockscreen settings by entering the phone application and go to settings and setup new certificates and then be allowed to install your own fingerprint, this is waste of time and it's much easier to use this bug to take over the pin code (this is just for saying and has nothing todo with the frp bypassing even if some wikis say so)
 
+#### This was a challenge and I bet other ppl that is still trying to break this device that hasn't seen this wiki will agree with 100%! Thanks LG.
+
+### Life's Good ! // wuseman
 
 #### REQUIREMENTS
 
