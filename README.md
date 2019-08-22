@@ -59,9 +59,8 @@ But before we re-flashing device and you trying to find a way to install the apk
 -)  Now to the problem, you won't be able to install this application
     since the settings and hiddenmenu are disabled and you will just
     get redirected to the limited settings, it wont help to use
-    quickshortcutmaker or a similiar tools fortry launch development settings, why?`Duh! Cause it's not even installed!
-    And just for saying, NO you wont be allowed to download an apk file and install dev settings and bypassing the limited network settings, there is no way to do this, for real! However, let's move on:
-
+    quickshortcutmaker or similiar tools for launch development settings, why?`Duh! Cause it's not even installed! And cause selinux you wont be able to overide the current settings neither so you are stuck, just give up!
+    
 21) Go back to the youtube screen by pressing arrow back
 
 22) Start a video, choose the share button
@@ -88,7 +87,7 @@ But before we re-flashing device and you trying to find a way to install the apk
 
 34) What you wanna do now is to browse back to youtube screen in accessibility screen and press on the clock to start google chrome again and feel free to download and install ALMOST any apk file.
 
-34) It wont help to install lgsetupwizard.apk, settings.ak or anything that you got in mind for bypassing the FRP protection and hiddenmenu.apk from will also be denied due permissions and you are not even allowed to use UUSD for open hidden menu, BUT this will work on Android 7.0 so you must downgrade to Android 7.0
+34) It wont help to install lgsetupwizard.apk, luckypatcher.apk, settings.apk or any other applications since you wont be able to turn permissions ON for the required features. You are not even allowed to use UUSD for open hidden menu on 8.0, BUT this will work on Android 7.0 so you must downgrade to Android 7.0, all applications that you have installed before you downgrading will be wiped so don't spend to much time for install your apps since it's a waste of time.
 
 # FOR BYPASS FRP
 
