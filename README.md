@@ -131,15 +131,15 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
 
 16) In down left corner click on No Thanks
 
-17) Now browse to https://nr1.nu/i/archive/lg-g6/terminal.apk
+- If you don't trust me and want to explore things by your own, you can do:
+    Now browse to https://nr1.nu/i/archive/lg-g6/terminal.apk
+    Click on update permissions
+    Click on Allow
+    Press install when done, now I wish you luck for bypassing the permissions! :-)
+   
+17) Once google chrome has been started, go to a page that allowing you to press on a phone number, for example on Telia.se - You can press ![here](https://www.telia.se/privat/kontakt/butikerochaterforsaljare/borlange) for get redirected to telia.se and here you can press on a phone number, your phone application will be started.
 
-18) Click on update permissions
-
-19) Click on Allow
-
-20) Once google chrome has been started, go to a page that allowing you to press on a phone number, for example on Telia.se - You can press ![here](https://www.telia.se/privat/kontakt/butikerochaterforsaljare/borlange) for get redirected to telia.se and here you can press on a phone number, your phone application will be started.
-
-21) Enter UUSD: *#546368#*870# where 870 is the device model, since we have a LG G6 870 we entering 870, you are now in HiddenMenu
+18) Enter UUSD: *#546368#*870# where 870 is the device model, since we have a LG G6 870 we entering 870, you are now in HiddenMenu
 
 ### Don't get panic if  USB Debugging is inactive and youre not allowed to enable usb debugging! For users that not have this issue can jump over part:
 
@@ -147,13 +147,13 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
    - Re-do the flash process with LGUP
    - Once the installation is complete and your device is erasing itself with the white background and the android logo on screen saying "DO NOT TURN OFF YOUR DEVICE" - That's exactly what you must do so turn off device by hold POWER + VOLUME DOWN (if you will be to late first time, you will succeed second time just press the buttons ~2-3 seconds before you know the screen will popup so you will poweroff the device during installation) - Now let the device be powered off for ~1 minute and then turn it on again and redo the process from step 1 until 22 and you will be enable to enable usb debugging if you wasn't to late when powering off the device, IF it's still inactive then just try again and try again until it will work, actually I figure out this after my third attempt and now I have tried this several times and you must turn it off while it's between 0% and 100% and since POWER + VOL DOWN takes ~7 seconds to power off device and the screen appears for around 4 seconds you must press the buttons few seconds before to turn it off exactly when it's needed.
 
-22) Once you got into Hidden Menu, press on:
+19) Once you got into Hidden Menu, press on:
      - Device Menu 
      - LDB
      - USB Debugging - Turn on debug mode when usb is connected
 
 
-23) You are now allowed enter USB Debugging but this wont help much due to the permissions issues BUT now you are allowed to list application wich means you are allowed to uninstall them aswell (still not allowed to start any application or do anything almost since / is mounted as ro): Now do exactly as below and don't install other apps if you don't know exactly what you doing then you might be stuck and have a softbricked device, just follow this and you're safe!
+20) You are now allowed enter USB Debugging but this wont help much due to the permissions issues BUT now you are allowed to list application wich means you are allowed to uninstall them aswell (still not allowed to start any application or do anything almost since / is mounted as ro): Now do exactly as below and don't install other apps if you don't know exactly what you doing then you might be stuck and have a softbricked device, just follow this and you're safe!
 
 ![Screenshot](https://nr1.nu/archive/lg-g6/lg-remove-apps.gif)
 
@@ -165,23 +165,22 @@ Just for saying, when you downgrading from android 8.0 to android 7.0 your devic
      adb shell am broadcast -a android.intent.action.MASTER_CLEAR
      adb reboot 
      
-* Once device rebooted after you ran reboot, turn off the device while its installing with the white background and android logo on screen and let the device be turned off for ~1 minute and then powering off your device - When you are abck back to welcome screen (It's safe to turn off device during install, did it several times for trying)
+* Once device rebooted after you ran reboot, turn off the device while its installing with the white background and android logo on screen and let the device be turned off for ~1 minute and then powering off your device - When you are back back to welcome screen (It's safe to turn off device during install, did it several times for trying)
 
-1) Press on next button 
-2) On wifi settings do NOT have a sim card or connect to a wifi
-3) Just press skip down in right corner, and just move on until you enter HOME SCREEN and your done! Google can't connect to their servers due we removed the gms package and lgsetupwizard is gone so frp protection can't be triggered, reinstall applications from /system application and enjoy your fully unlocked LG G6 870S device!
+21) Press on next button 
+22) On wifi settings do NOT have a sim card or connect to a wifi
+23) Just press skip down in right corner, and just move on until you enter HOME SCREEN and your done! Google can't connect to their servers due we removed the gms package and lgsetupwizard is gone so frp protection can't be triggered, reinstall applications from /system application and enjoy your fully unlocked LG G6 870S device!
 
 Enjoy your fully unlocked LG G6 870 - If you're smart, download LG Bridge and put your device into download mode and upgrade your device to a proper firmware for you country.
 
 ### Other bugs I found while trying bypassing the FRP
 
-When you are at wifi settings and the next button is inactive because you are forced to connect to a network then do as following to move further, exactly the same second as you turning off the device then press on next button before the button getting inactive/grayed out and you will be asked if you wanna continue to the next step, you will now be allowed to take over the fingerpring and pin code and erase the old owners lock setting, but don't be to excited once this step is done and when you was allowed to enter the username you will be redirected back to the wifi screen and you wont be able to go further. In some tutorials out there some claims you can take over lockscreen settings by entering the phone application and go to settings and setup new certificates and then be allowed to install your own fingerprint, this is waste of time and it's much easier to use this bug to take over the pin code (it wont help in any way to bypass FRP even if some wikis out there claims that)
-
+When you are at wifi settings and the next button is inactive because you are forced to connect to a network then do as following to move further, exactly the same second as you turning off the wifi then press on next button before the button getting inactive/grayed out and you will be asked if you wanna continue to the next step, you will now be allowed to take over the pin code and erase the old owners lock setting, but don't be to excited once this step is done and when you was allowed to enter the username you will be redirected back to the wifi screen and you wont be able to go further until you are connected to the wifi (you can still turn off wifi and press next the same second but you will be sent back to wifi settings again no matter if you trying 20 times or 1 time, did it myself). In some tutorials out there some claims you can take over lockscreen settings by entering the phone application and go to settings and setup new certificates and then be allowed to install your own fingerprint, this is waste of time and it's much easier to use this bug to take over the pin code (this is just for saying and has nothing todo with the frp bypassing even if some wikis say so)
 
 
 #### REQUIREMENTS
 
-A running Windows 10 Pro, works for any version you will find your keys from Microsoft here: https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
+A LG G6 870S Europe Model - Probably same method work on G7 and other devices from LG that has limited settings after a factory reset from distance by owner
 
 #### CONTACT 
 
