@@ -3,7 +3,7 @@
 
 _This wiki is for private usage and as a reminder if I will get another LG G6._
 
-This device has been by far the most difficult phone to hack all categories, probably spent over 100 hours to finally break it.
+This device has been by far the most difficult phone to hack all categories, probably spent over 100 hours to bypass FRP.
 
 *No* wiki's out there actually work and they all who made them are kinda idiots and just scammers and some tutorials even may brick your device, not even xda forum have legit tutorial for this device so hopefully someone will enjoy this unique and probably only wiki for bypassing FRP protection on LG G6 870.
 
