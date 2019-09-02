@@ -1,7 +1,17 @@
+# LG-G6-FRP-BYPASS
 
 
-Install apk files on android 8.0 oreo with limited settings :
-INSTALL APKS ON ANDROID 8.0 LOCKED BY FRP
+_This wiki is for private usage and as a reminder if I will get another LG G6._
+
+This device has been by far the most difficult phone to hack all categories, probably spent over 100 hours to finally break it.
+No wiki's out there actually work and they all who made them are kinda idiots and just scammers and some tutorials even may brick your device, not even xda forum have legit tutorial for this device so hopefully someone will enjoy this wiki that have a LG G6 and probably the newer versions aswell.
+
+# HOWTO - ANDROID 7.0 
+
+If you got Android 8.0 Oreo then you must re-flash your firmware to Android 7.0, it wont  matter what firmware you choose from https://lg-firmwares.com/ until we really hacked the device, just pick one and download the file and flash your device with LGUP tool, go grab the tool + dll file from here: https://www.mylgphones.com/download-lg-up-software but for fun, let me provide you how you will be able to install apk files on the limited android 8.0 firmware that has all settings disabled and due permissions you are not allowed to launch them because selinux is enable, but you can install applications by a miss I haven't been able to find anywhere. This is possible cause LG have forgot to disable permissions for install 'un-secured' applications outside playstore:
+
+# INSTALL APKS ON ANDROID 8.0 LOCKED BY FRP
+
 NOTICE: This is NOT allowed on Android 7.0 so don't bother to try, it will just bring you to the limited settings panel with netowrk settings only and you wont be able to move on to developer settings or overide apps settings:
 
  Start your device
