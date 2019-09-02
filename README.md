@@ -4,69 +4,69 @@ Install apk files on android 8.0 oreo with limited settings :
 INSTALL APKS ON ANDROID 8.0 LOCKED BY FRP
 NOTICE: This is NOT allowed on Android 7.0 so don't bother to try, it will just bring you to the limited settings panel with netowrk settings only and you wont be able to move on to developer settings or overide apps settings:
 
-    Start your device
+ Start your device
 
-    On welcome screen press next button
+On welcome screen press next button
 
-    Press on skip in lower right corner
+Press on skip in lower right corner
 
-    Turn wifi on and login on your wifi
+Turn wifi on and login on your wifi
 
-    Go back to welcome screen
+Go back to welcome screen
 
-    Press on Accessibility
+Press on Accessibility
 
-    Press on settings
+Press on settings
 
-    Press on Switch Access
+Press on Switch Access
 
-    Press on settings in down right corner
+Press on settings in down right corner
 
-    Press on Help & Feedback
+Press on Help & Feedback
 
-    Press on About Switch Access for Android
+Press on About Switch Access for Android
 
-    Touch the youtube video once
+Touch the youtube video once
 
-    Click on the clock icon beside the share icon
+Click on the clock icon beside the share icon
 
-    Youtube is starting quickly and taking you to google chrome browser
+Youtube is starting quickly and taking you to google chrome browser
 
-    Now click on Accept & Continue
+Now click on Accept & Continue
 
-    In down left corner click on No Thanks
+In down left corner click on No Thanks
 
-    Now browse to ![Screenshot](https://nr1.nu/i/archive/lg-g6/terminal.apk
+Now browse to ![Screenshot](https://nr1.nu/i/archive/lg-g6/terminal.apk
 
-    Click on update permissions
+Click on update permissions
 
-    Click on Allow
+Click on Allow
 
-    Wait until file has been downloaded -) Now to the problem, you won't be able to install this application since the settings and hiddenmenu are disabled and you will just get redirected to the limited settings, it wont help to use quickshortcutmaker or similiar tools for launch development settings, why?`Duh! Cause it's not even installed! And cause selinux you wont be able to overide the current settings neither so you are stuck, just give up!
+Wait until file has been downloaded -) Now to the problem, you won't be able to install this application since the settings and hiddenmenu are disabled and you will just get redirected to the limited settings, it wont help to use quickshortcutmaker or similiar tools for launch development settings, why? Duh! Cause it's not even installed! And cause selinux you wont be able to overide the current settings neither so you are stuck, just give up!
 
-    Go back to the youtube screen by pressing arrow back
+Go back to the youtube screen by pressing arrow back
 
-    Start a video, choose the share button
+Start a video, choose the share button
 
-    Choose E-mail application provided by LG the white icon with a blue E
+Choose E-mail application provided by LG the white icon with a blue E
 
-    Allow the permissions for access contacts + E-Mail address
+ Allow the permissions for access contacts + E-Mail address
 
-    Choose to sign in with your email (NOT A GMAIL ACCOUNT IT IS NOT VALID AND WONT WORK AND WILL REDIRECT YOU TO THE LOGIN SCREEN WERE YOU MUST LOGIN WITH THE OLD MAIL ACCOUNT)
+Choose to sign in with your email (NOT A GMAIL ACCOUNT IT IS NOT VALID AND WONT WORK AND WILL REDIRECT YOU TO THE LOGIN SCREEN WERE YOU MUST LOGIN WITH THE OLD MAIL ACCOUNT)
 
-    Wait until you get's connected and just hit next followed by done
+Wait until you get's connected and just hit next followed by done
 
-    Now you are on "Send Message" in your e-mail application
+Now you are on "Send Message" in your e-mail application
 
-    Choose the the add file button, upper right behind your e-mail address
+Choose the the add file button, upper right behind your e-mail address
 
-    Now press on the terminal.apk file that you added
+Now press on the terminal.apk file that you added
 
-    You will now be allowed to install the application without enabling any permissions since they forgot to add permission denied on this one
+You will now be allowed to install the application without enabling any permissions since they forgot to add permission denied on this one
 
-    After you installed the application, you can choose to open terminal in lower down corner
+After you installed the application, you can choose to open terminal in lower down corner
 
-    Now you will notice EVERYTHING is locked due to selinux enforcing and you wont even be allowed to list applications by pm list applications
+Now you will notice EVERYTHING is locked due to selinux enforcing and you wont even be allowed to list applications by pm list applications
 
 
 # Bypassing FRP!
