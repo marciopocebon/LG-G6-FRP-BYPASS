@@ -147,7 +147,7 @@ Press on Settings (and fuck you scammers, this is what you will get to)
 
 ### No worries, browse to any site that allowing you to press a number (here is a link to the page I was using)
 Feel free here to press on mail and try install your apk as we did on android 8.0 its not possible you will be redirected to the settings above:
-Screenshot_2019-09-02-02-32-18.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-32-18.png)
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-32-22.png)
 
 ### However, once pressed on the phone number you get into call application, now enter the uusd code for secret menu (this code is ńot accepted on android 8.0, hence why we using android 7.0)
@@ -171,9 +171,11 @@ Turn off your LG device
  Once the installation is complete and your device is erasing itself with the white background and the android logo on screen saying "DO NOT TURN OFF YOUR DEVICE" - That's exactly what you must do so turn off device by hold POWER + VOLUME DOWN (if you will be to late first time, you will succeed second time just press the buttons ~2-3 seconds before you know the screen will popup so you will poweroff the device during installation) - Now let the device be powered off for ~1 minute and then turn it on again and redo the process from step 1 until 22 and you will be enable to enable usb debugging if you wasn't to late when powering off the device, IF it's still inactive then just try again and try again until it will work, actually I figure out this after my third attempt and now I have tried this several times and you must turn it off while it's between 0% and 100% and since POWER + VOL DOWN takes ~7 seconds to power off device and the screen appears for around 4 seconds you must press the buttons few seconds before to turn it off exactly when it's needed.
 
 ### Enable usb debugging:
-    ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-33-05.png)
+ 
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-33-05.png)
 
 ### Here is a video what's required to uninstall, uninstall other applications on your own risk - I TAKE NO RESPONSIBILITYS AND I DONT RECOMMENDING THIS SINCE ITS NOT NEEDED AND IT IS JUST A RISK , PLAY WITH THIS WHEN YOU DONE)
+
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/lg-g6-bypassing.gif
 
 However, here is the oneliner you can copy and paste if you not wanna watch the video:
