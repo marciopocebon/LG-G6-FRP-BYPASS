@@ -6,6 +6,8 @@ _This wiki is for private usage and as a reminder if I will get another LG G6._
 This device has been by far the most difficult phone to hack all categories, probably spent over 100 hours to finally break it.
 No wiki's out there actually work and they all who made them are kinda idiots and just scammers and some tutorials even may brick your device, not even xda forum have legit tutorial for this device so hopefully someone will enjoy this wiki that have a LG G6 and probably the newer versions aswell.
 
+Also posted this on ![XDA-Developers](https://forum.xda-developers.com/lg-g6/how-to/lg-g6-h870-frp-bypassing-limited-t3963642/post80168797#post80168797)
+
 # HOWTO - ANDROID 7.0 
 
 If you got Android 8.0 Oreo then you must re-flash your firmware to Android 7.0, it wont  matter what firmware you choose from https://lg-firmwares.com/ until we really hacked the device, just pick one and download the file and flash your device with LGUP tool, go grab the tool + dll file from here: https://www.mylgphones.com/download-lg-up-software but for fun, let me provide you how you will be able to install apk files on the limited android 8.0 firmware that has all settings disabled and due permissions you are not allowed to launch them because selinux is enable, but you can install applications by a miss I haven't been able to find anywhere. This is possible cause LG have forgot to disable permissions for install 'un-secured' applications outside playstore:
@@ -228,13 +230,16 @@ Third time hit arrow next button
 ### Next, setup your fingerprint if you wish I wont use this now during the wiki:
 ![Screenshot](https://nr1.nu/archive/lg/after_device_was_reset/Screenshots/Screenshot_2019-09-02-00-59-03.png)
 
-### Okey, you're back at were you was started before, don't worry - It will work! ;) However, now 
+### Okey, you're back at were you was started before, don't worry - It will work! ;)
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-59-08.png)
 
-### You will see smart forward, and now the happy ending, or?
+### You will see smart forward
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-59-15.png)
 
 ### Of course, enjoy your fully unlocked LG device with bypassed FRP, feel free to do anything you want now, it's 100% yours.
 ![Screenshot](https://nr1.nu/archive/lg/after_device_was_reset/Screenshots/Screenshot_2019-09-02-00-59-21.png)
 
-Devce will erase itself, but don't worry! We have now reset the permissions for everything so just setup device again and this time it wont reboot again.
+Device will erase itself, but don't worry! We have now reset the permissions for everything so just setup device again and this time it wont reboot again.
+
+
+# END
