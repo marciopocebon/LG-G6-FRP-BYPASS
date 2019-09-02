@@ -81,12 +81,13 @@ Now you will notice EVERYTHING is locked due to selinux enforcing and you wont e
 
 # Bypassing FRP!
 
+Sorry for the extremely big pictures, no idea how to fix and I am to lazy to search.
+
 ### Press arrow next button:
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-28-51.png)
 
 ### Press on skip:
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-28-55.png)
-
 
 ### As you can see, next button is grayyed out so connect to wifi (you can bypass this if you pressing quick on wifi and pressing next)
 ![Screenshot]![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-29-01.png)
@@ -152,12 +153,15 @@ Feel free here to press on mail and try install your apk as we did on android 8.
 
 ### However, once pressed on the phone number you get into call application, now enter the uusd code for secret menu (this code is ńot accepted on android 8.0, hence why we using android 7.0)
 *#546368#*870#
+
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-32-54.png)
 
 #### And now you're in hidden menu wich you wasnt allowed to open in android 8.0, browse to SVC MENU:
+
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-32-58.png)
 
 ### Followed by pressing on LDB:
+
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-33-02.png)
 
 # Is the USB debugging button grayed out? 
@@ -179,24 +183,26 @@ Turn off your LG device
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/lg-g6-bypassing.gif
 
 However, here is the oneliner you can copy and paste if you not wanna watch the video:
-for apps in "com.android.google.gms com.lge.setupwizard com.lge.hiddenmenu com.google.android.setupwizard com.lge.easyhome"; do
-   pm uninstall --user 0 "${apps}"
-done; am broadcast -a android.intent.action.MASTER_CLEAR;adb reboot 
+
+    for apps in "com.android.google.gms com.lge.setupwizard com.lge.hiddenmenu com.google.android.setupwizard com.lge.easyhome"; do pm uninstall --user 0 "${apps}"; done; am broadcast -a android.intent.action.MASTER_CLEAR;adb reboot 
 
 ### Once you done the step in the video and rebooted your device, then wer'e back to main screen:
 
 ### Click next arrow button
-Screenshot_2019-09-02-02-39-02.png)
+
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-39-02.png)
 
 ### And skip again.
+
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-39-06.png)
 
-Connect to wifi and hit next
-Screenshot_2019-09-02-02-39-25.png)
+### Connect to wifi and hit next
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-39-25.png)
 
-Voila! You can accept documents now:
-Screenshot_2019-09-02-02-39-49.png)
-Screenshot_2019-09-02-02-39-56.png)
+### Voila! You can accept documents now:
+
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-39-49.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-39-56.png)
 
 And just continue until you will join the HOME screen, voila! :D 
 
@@ -212,7 +218,7 @@ Third time hit arrow next button
 ![Screenshot](https://nr1.nu/archive/lg/after_device_was_reset/Screenshots/Screenshot_2019-09-01-23-58-13.png)
 
 ### Now you can continue without wifi connected, just move on to the next step without any wifi or sim-card:
-Screenshot_2019-09-01-23-58-19.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-01-23-58-19.png)
 
 ### Click skip internet connection
 
@@ -223,10 +229,10 @@ Screenshot_2019-09-01-23-58-19.png)
 ![Screenshot](https://nr1.nu/archive/lg/after_device_was_reset/Screenshots/Screenshot_2019-09-02-00-59-03.png)
 
 ### Okey, you're back at were you was started before, don't worry - It will work! ;) However, now 
-Screenshot_2019-09-02-00-59-08.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-59-08.png)
 
 ### You will see smart forward, and now the happy ending, or?
-Screenshot_2019-09-02-00-59-15.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-59-15.png)
 
 ### Of course, enjoy your fully unlocked LG device with bypassed FRP, feel free to do anything you want now, it's 100% yours.
 ![Screenshot](https://nr1.nu/archive/lg/after_device_was_reset/Screenshots/Screenshot_2019-09-02-00-59-21.png)
