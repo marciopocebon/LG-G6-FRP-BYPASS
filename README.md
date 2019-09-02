@@ -98,7 +98,7 @@ Sorry for the extremely big pictures, no idea how to fix and I am to lazy to sea
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-29-23.png)
 
 ### Press Setup as new:
-Screenshot_2019-09-02-00-29-29.png)
+![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-00-29-29.png)
 
 ### Probably this is what you gonna see, so let's bypass this:
 ![Screenshot](https://nr1.nu/archive/lg/screenshots/Screenshot_2019-09-02-02-29-57.png)
